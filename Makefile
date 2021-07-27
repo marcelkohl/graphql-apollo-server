@@ -1,6 +1,6 @@
 DC=docker-compose
 
-buid:
+build:
 	${DC} build
 
 bash:
