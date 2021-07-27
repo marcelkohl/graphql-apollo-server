@@ -19,5 +19,6 @@ This repository is supposed to have the minimal settings to run [Apollo Server](
 - Clone this repository;
 - `make build`
 - `make start`
+- Visit http://localhost:4000 in your browser. Apollo Server's default landing page should appear.
 
 Done!
