@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  nodejs:
+    build: .
+    container_name: nodejs-server
+    ports:
+      - 4000:4000
+    volumes:
+      - ./src:/app
+      - /app/node_modules
